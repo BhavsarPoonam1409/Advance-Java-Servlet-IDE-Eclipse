@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="lightblue" >
+	<form action="Novell_Form" >
+		<!-- <table border="2" align="center"> -->
+		<table align="center"
+			style="background-color:pink;
+			border:2px dashed ;
+			border-color : hotpink;
+			border-radius:20px;">
+			<tr>
+			<th colspan=3>Novell Service Login</th>
+			</tr>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username"></td>
+			</tr>
+			
+			<tr>
+				<td>Password:</td>
+				<td><input type="number" name="pass"></td>
+			</tr>
+			
+			<tr>
+				<td>City Of:</td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			
+			<tr>
+				<td>Employment:</td>
+				<td><input type="text" name="emp"></td>
+			</tr>
+			
+			<tr>
+			<td>Web Server</td>
+				<td>
+						<select name="web">
+							<option>--Choose a server--</option>
+							<option>Chrome</option>
+							<option>Edge</option>
+						</select><br><br>
+					</td>
+			</tr>
+			
+			<tr>
+				<td>Please specify your role:</td>
+				<td>
+					<input type="radio" name="r" value="admin">Admin <br>
+					<input type="radio" name="r" value="engineer">Engineer <br>
+					<input type="radio" name="r" value="manager">Manager <br>
+					<input type="radio" name="r" value="guest">Guest<br><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Single Sign-on to the follwing</td>
+				<td>
+					<input type="checkbox" name="mail" >Mail <br>
+					<input type="checkbox" name="payroll" >Payroll <br>
+					<input type="checkbox" name="self" >Self-service <br><br>
+					
+				</td>
+			</tr>    
+			
+			<tr>
+					
+					<td colspan="2" align="center">
+						<input type="submit" name="login">
+						<input type="reset" name="reset">
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td colspan=3 align="center" >--Poonam Bhavsar</td>
+				</tr>
+		
+		</table>
+	</form>
+
+</body>
+</html>
