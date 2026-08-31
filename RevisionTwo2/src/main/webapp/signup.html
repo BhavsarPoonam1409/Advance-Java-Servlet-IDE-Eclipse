@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <div class="signup-container">
+        <div class="signup-box">
+            <h1>Create Account</h1>
+            <p>Sign up to get started</p>
+
+            <form action="SignupServlet">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" name="full"required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="pwd" id="password" placeholder="Enter your password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password"  name="cpwd" id="confirm-password" placeholder="Confirm your password" required>
+
+                <input type="submit" value="Sign Up">
+              </form>
+            <p class="login-link">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
