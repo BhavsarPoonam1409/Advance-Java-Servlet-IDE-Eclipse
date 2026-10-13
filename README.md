@@ -77,6 +77,25 @@ Basic JSP concepts and JSP file creation:
 - JSP Comment
   - Using JSP comments: `<%-- --%>`
 
+### 9. Database Demo (JSP + MySQL)
+
+Connecting JSP with a MySQL database using JDBC:
+
+- Connecting JSP to MySQL Database
+- JDBC (Java Database Connectivity)
+  - Using MySQL JDBC Driver
+  - Establishing a database connection
+- Create Operation
+  - Inserting student records into the database
+  - Using JSP to process form data
+- Read Operation
+  - Fetching student records from the database
+  - Displaying records in an HTML table
+- Database Details
+  - Database Name: `college_db`
+  - Table Name: `student`
+  - Fields: `enrollment_no`, `student_name`, `course`, `semester`
+
 ## Projects
 
 ### First_Project
