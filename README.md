@@ -54,6 +54,29 @@ This repository contains my Advanced Java Servlet practice projects developed us
 - URL-based session tracking
 - Maintaining user information using URL Rewriting
 
+### 8. JSP Basics
+
+Basic JSP concepts and JSP file creation:
+
+- Creating and running a `.jsp` file
+- Scriptlet Tag `<% %>`
+  - Writing Java code inside JSP
+  - Using implicit objects
+  - `request` and `response` implicit objects
+  - `out` implicit object
+
+- Declaration Tag `<%! %>`
+  - Declaring and initializing variables
+  - Defining methods/functions
+  - Creating class-level variables
+
+- Expression Tag `<%= %>`
+  - Evaluating and displaying expressions
+  - Example: `<%= 5 + 75 + 7 %>`
+
+- JSP Comment
+  - Using JSP comments: `<%-- --%>`
+
 ## Projects
 
 ### First_Project
@@ -88,4 +111,4 @@ Demonstrates URL Rewriting and passing information through URLs.
 
 ## Purpose
 
-This repository documents my learning and practice in Advanced Java and Java Servlets, covering concepts from basic Servlet programming to RequestDispatcher, Page Redirection, Cookies and URL Rewriting.
+This repository documents my learning and practice in Advanced Java and Java Servlets, covering concepts from basic Servlet programming to RequestDispatcher, Page Redirection, Cookies and URL Rewriting and JSP Basics.
